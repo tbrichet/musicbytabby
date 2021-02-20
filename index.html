@@ -1,33 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Music by Tabby</title>
-  </head>
-  <body>
-      <!--Navigation-->
-      <header>
-          <h1>Music by Tabby</h1>
-      </header>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Music by Tabby</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <!--Navigation-->
+        <header>
+            <h1>
+              <a href="/">Music by Tabby</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#charity">Charity</a>
+                    </li>
+                    <li>
+                        <a href="#performances">Performances</a>
+                    </li>
+                    <li>
+                      <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-      <!--Jumbotron-->
-      <section></section>
-      
-      <!--About-->
-      <section></section>
+        <!--Hero-->
+        <section class="hero"></section>
+        
+        <!--About-->
+        <section>
+            <h2>About Us</h2>
+        </section>
 
-      <!--Charities-->
-      <section></section>
-      
-      <!--Performances-->
-      <section></section>
+        <!--Charities-->
+        <section>
+            <h2>Charity Initiative</h2>
+        </section>
+        
+        <!--Performances-->
+        <section>
+            <h2>Performances</h2>
+        </section>
 
-      <!--Contact-->
-      <section></section>
+        <!--Contact-->
+        <section>
+            <div>
+                <h2>Contact Us</h2>
+                <p>We'd love to perform at your next event!</p>
+            </div>
+            <form>
+                <label for="name">Your Name: </label>
+                <input type="text" placeholder="Ringo Starr" name="name" id="name" />
+                <label for="email">Your Email Address: </label>
+                <input type="email" placeholder="ringo@thebeatles.com" name="email" id="email" />
+                <label for="phone">Your Phone Number:</label>
+                <input type="tel" placeholder="555-555-5555" name="phone" id="phone" />
+                <p>
+                    What is your preferred method of contact?
+                    <input type="radio" name="email-preferred" id="email-preferred" />
+                    <label for="email-preferred">Email</label>
+                    <input type="radio" name="call-preferred" id="call-preferred" />
+                    <label for="call-preferred">Phone Call</label>
+                    <input type="radio" name="text-preferred" id="text-preferred" />
+                    <label for="text-preferred">Text</label>
+                </p>
+                <button type="submit">Let's Connect!</button>
+            </form>
+            
+        </section>
 
-      <!--Footer-->
-      <footer>
-          <h2>Footer</h2>
-      </footer>
-  </body>
+        <!--Footer-->
+        <footer>
+            <h2>Footer</h2>
+        </footer>
+    </body>
 </html>
